@@ -1,0 +1,25 @@
+.responsive{
+  height: auto;
+  width: 100%
+}
+
+#overlay{
+  position: absolute;
+  top: 25%;
+  width: 50%;
+  text-align: center;
+  z-index: 1;
+  right: 25%;
+  background: rgba(0,0,0,.8);
+  padding: 5%;
+  color: white;
+  border-radius: 15px;
+}
+
+.button {
+  color: whitesmoke;
+  text-decoration: none;
+  background: tomato;
+  padding: 3%;
+  border-radius: 5px;
+}
