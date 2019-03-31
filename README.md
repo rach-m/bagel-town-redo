@@ -1,2 +1,2 @@
-## Redo in Progress of a Local Bagel Store
+## Website Redo in Progress for a Local Bagel Store
 
