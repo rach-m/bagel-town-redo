@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
-import image1 from "../assets/bagels.jpg";
+import image1 from "../../assets/bagels.jpg";
 import { Link } from "react-router-dom";
 
 class Home extends Component {

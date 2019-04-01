@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-  import logo from "../assets/logo (1).png"
+  import logo from "../../assets/logo (1).png"
 
 export default class NavBar extends React.Component {
   constructor(props) {

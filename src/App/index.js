@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./style.css";
-import NavBar from "../NavBar"
+import NavBar from "../Components/NavBar"
 import {Route} from "react-router-dom"
-import Catering from "../Catering"
-import Menu from "../Menu"
-import Home from "../Home"
+import Catering from "../Components/Catering"
+import Menu from "../Components/Menu"
+import Home from "../Components/Home"
 
 class App extends Component {
   render() {
