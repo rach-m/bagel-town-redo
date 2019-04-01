@@ -12,7 +12,7 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
   import logo from "../../assets/logo (1).png"
-
+  import "./style.css"
 export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -30,7 +30,7 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md" style = {{zIndex:4}}>
+        <Navbar color="dark" dark expand="md" style = {{zIndex:4, color: "white"}}>
           <NavbarBrand href="/">
           <div>
             <img style = {{maxHeight: "75px",maxWidth:"auto", marginRight: "50px", padding: "5px"}} src = {logo} alt = "Bagel Town Cafe Logo"></img>
