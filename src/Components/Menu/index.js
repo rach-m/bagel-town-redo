@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import Bagels from "./Bagels";
 import Breakfast from "./Breakfast";
 import Lunch from "./Lunch";
-import Wraps from "./Wraps";
-import Plates from "./Plates";
+import LunchMenu from "./LunchMenu";
 import Salads from "./Salads";
 import Bakery from "./Bakery";
 import Beverages from "./Beverages";
-
+import Soups from "./Soups"
+import "./style.css"
 export default class Menu extends Component {
   state = {
-    menu: "breakfast"
+    menu: "bakery"
   };
 
   menuChange = async e => {
@@ -29,14 +29,11 @@ export default class Menu extends Component {
       case "breakfast":
         showing = <Breakfast />;
         break;
-      case "lunch":
-        showing = <Lunch/>;
+      case "lunch-menu":
+        showing = <LunchMenu />;
         break;
-      case "wraps":
-        showing = <Wraps />;
-        break;
-      case "plates":
-        showing = <Plates />;
+      case "lunch-special":
+        showing = <Lunch />;
         break;
       case "salads":
         showing = <Salads />;
@@ -46,6 +43,9 @@ export default class Menu extends Component {
         break;
       case "beverages":
         showing = <Beverages />;
+        break;
+        case "soups":
+        showing = <Soups /> ;
         break;
       default:
         showing = <Bagels />;
@@ -59,19 +59,19 @@ export default class Menu extends Component {
             BAGELS
           </button>
           <button id="breakfast" onClick={this.menuChange}>
-            BREAKFAST
+            BREAKFAST SPECIALS
           </button>
-          <button id="lunch" onClick={this.menuChange}>
-            LUNCH
+          <button id="lunch-special" onClick={this.menuChange}>
+            LUNCH SPECIALS
           </button>
-          <button id="wraps" onClick={this.menuChange}>
-            WRAPS
-          </button>
-          <button id="plates" onClick={this.menuChange}>
-            PLATES
+          <button id="lunch-menu" onClick={this.menuChange}>
+            LUNCH MENU
           </button>
           <button id="salads" onClick={this.menuChange}>
             SALADS
+          </button>
+          <button id="soups" onClick={this.menuChange}>
+            SOUPS
           </button>
           <button id="bakery" onClick={this.menuChange}>
             BAKERY

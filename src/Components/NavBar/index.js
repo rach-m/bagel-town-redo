@@ -57,13 +57,15 @@ export default class NavBar extends React.Component {
                   Social Media
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
+                  < DropdownItem target = "_" href = "https://www.facebook.com/BagelTownwh/" >
                     Facebook
                   </DropdownItem>
-                  <DropdownItem>
+                  < DropdownItem target = "_"
+                  href = "https://www.instagram.com/bageltownwh/" >
                     Instagram
                   </DropdownItem>
-                  <DropdownItem>
+                  < DropdownItem target = "_"
+                  href = "https://www.yelp.com/biz/bagel-town-west-hempstead?osq=bageltown" >
                     Yelp
                   </DropdownItem>
                 </DropdownMenu>

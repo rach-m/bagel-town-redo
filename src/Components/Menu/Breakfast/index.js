@@ -6,7 +6,7 @@ const Breakfast = () => {
       <h1>Breakfast/Commuter Specials</h1>
       <h4>Served Weekdays 6:30am - 10am</h4>
       <h6>
-        Add ons included - Hot Sauce, Ketchup, Salt & Pepper
+        Optional Add Ons - Hot Sauce, Ketchup, Salt & Pepper
         </h6>
         <h6>
        Add $1.00 per order for Small Hot Beverage or 6oz. Orange Juice
