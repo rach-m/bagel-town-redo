@@ -21,7 +21,7 @@ class Home extends Component {
         }}
       >
         <img
-          class="responsive"
+          className="responsive"
           src={image1}
           alt="bagel and lox on marble table"
         />
@@ -33,7 +33,7 @@ class Home extends Component {
             Hempstead. Come check out our delicious bagels and full assortment
             of <b>dairy-free</b> desserts.
           </p>
-          <Link class = "button" to="/menu">Menu</Link>
+          <Link className = "button" to="/menu">Menu</Link>
         </div>
       </div>
     );
