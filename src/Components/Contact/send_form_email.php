@@ -116,7 +116,6 @@ if(isset($_POST['email'])) {
 
 
 
-
 // create email headers
 
 $headers = 'From: '.$email_from."\r\n".
@@ -125,16 +124,8 @@ $headers = 'From: '.$email_from."\r\n".
 
 'X-Mailer: PHP/' . phpversion();
 
-$mail = mail($email_to, $email_subject, $email_message, $headers);
+mail($email_to, $email_subject, $email_message, $headers);
 
-
-if (!$mail){
-  echo ("error");
-  exit;
-}
-else {
-
-echo $mail;
 ?>
 
 
@@ -152,6 +143,6 @@ Thank you for getting in touch! We will respond as quickly as possible to all in
 <?php
 
 }
-}
+
 
 ?>
